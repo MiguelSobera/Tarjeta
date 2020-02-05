@@ -55,4 +55,23 @@ public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito {
 	public String getId() {
 		return id;
 	}
+	
+	@Override
+	public String getDniTitular() {
+		return dniTitular;
+	}
+
+
+	@Override
+	public void setPin(int num) {
+		this.pin = num;
+
+	}
+
+
+	@Override
+	public int getSaldo() {
+		return (int) saldo;
+		
+	}
 }

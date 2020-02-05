@@ -9,7 +9,7 @@ public interface ITarjetaDebito {
 	
 	public String getDniTitular();
 	
-	public int getSalgo();
+	public int getSaldo();
 	
 	public void setPin(int iPin);
 	

@@ -9,5 +9,5 @@ public interface ITarjetaMonedero {
 
 	public int getSaldo();
 
-	public void setPin();
+	public void setPin(int num);
 }
