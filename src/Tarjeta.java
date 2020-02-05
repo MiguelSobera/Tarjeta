@@ -22,4 +22,37 @@ public class Tarjeta implements ITarjetaMonedero, ITarjetaDebito {
 		this.dniTitular = dniTitular;
 
 	}
+	public void setId(String id) {
+		this.id = id;
+
+	}
+
+	private boolean cargo(float importe) {
+		boolean resultado = false;
+		if(importe>0) {
+			resultado=true;
+		}
+		return resultado;
+	}
+
+	@Override
+	public void retirarCajero(float importe, int pin) {
+		if(this.pin==pin && importe >0) {
+		setSaldo(getSaldo()-importe);
+		}
+
+	}
+
+	@Override
+	public void comprar(float importe, String dni) {
+		if(this.dniTitular==dni && importe>0) {
+			setSaldo(getSaldo()-importe);
+			}
+
+	}
+
+	@Override
+	public String getId() {
+		return id;
+	}
 }
