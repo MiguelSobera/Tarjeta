@@ -7,6 +7,8 @@ public interface ITarjetaDebito {
 	
 	public String getId();
 	
+	public void setId(int iId);
+	
 	public String getDniTitular();
 	
 	public int getSaldo();
