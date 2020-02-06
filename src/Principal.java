@@ -4,5 +4,8 @@ public class Principal {
 	public static void main(String[] args) {
 		ITarjetaMonedero monedero = new Tarjeta("1234567890", "12345678A", 1234, 500);
 		ITarjetaDebito tarjeta = new Tarjeta("1234567890", "12345678A", 5678, 60000);
+		//Tarea 9 terminada
+		System.out.println("Pagando con tarjeta...");
+		tarjeta.comprar(100, "1234567890");
 }
 }
