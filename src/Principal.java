@@ -7,5 +7,10 @@ public class Principal {
 		//Aclaracion del pago
 		System.out.println("Pagando con tarjeta...");
 		tarjeta.comprar(100, "29556545T");
-
+		//Se termina de implementar datos en el main
+		System.out.println("Importe Foster Hollywood 100€...");
+		System.out.println("");
+		System.out.println("El saldo actual del monedero es: " + monedero.getSaldo());
+		System.out.println("Pagando con monedero...");
+}
 }
