@@ -6,5 +6,6 @@ public class Principal {
 		ITarjetaDebito tarjeta = new Tarjeta("1324567985", "29556545T", 1326, 200000);
 		System.out.println("Pagando con tarjeta...");
 		tarjeta.comprar(100, "29556545T");
+		
 }
 }
