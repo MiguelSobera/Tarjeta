@@ -4,7 +4,7 @@ Este proyecto se va a realizar con la finalidad de solventar la necesidad de los
 
 **colabradores** 
 
--juan amador
--carla valverde
--migel sovera
--felix parra
+- juan amador
+- carla valverde
+- migel sovera
+- felix parra
