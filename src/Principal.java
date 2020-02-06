@@ -6,6 +6,11 @@ public class Principal {
 		ITarjetaDebito tarjeta = new Tarjeta("1234567890", "12345678A", 5678, 60000);
 		//Tarea 9 terminada
 		System.out.println("Pagando con tarjeta...");
-		tarjeta.comprar(100, "1234567890");
+		tarjeta.comprar(20, "1234567890");
+		//tarea 10 terminada
+		System.out.println("Importe Pizza Hut 20€...");
+		System.out.println("");
+		System.out.println("El saldo actual del monedero es: " + monedero.getSaldo());
+		System.out.println("Pagando con monedero...");
 }
 }
